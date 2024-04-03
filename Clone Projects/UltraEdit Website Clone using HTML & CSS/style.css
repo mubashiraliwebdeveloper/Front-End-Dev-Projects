@@ -1,0 +1,279 @@
+.logo img:hover {
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Segoe UI';
+    padding: 10px;
+
+}
+
+.right ul {
+    display: flex;
+    gap: 20px;
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.right ul li:hover {
+    color: rgb(156, 147, 147)
+}
+
+
+.right ul li span {
+    padding: 0 4px;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    margin: 70px;
+    font-family: sans-serif;
+}
+
+.first span {
+    font-size: 45px;
+}
+
+section span img {
+    width: 100px;
+    margin: 0 23px;
+}
+
+.first p {
+    font-size: 23px;
+    width: 46vw;
+    text-align: center;
+}
+
+
+
+.btn {
+    background: #00b6d1;
+    padding: 14px 16px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    margin: 12px 0;
+    cursor: pointer;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.green {
+    background-color: #5cb85c;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.second {
+    max-width: 55vw;
+    margin: auto;
+    padding-bottom: 35px;
+}
+
+.item {
+    padding: 23px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.item-lang {
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 36px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+    color: #222222;
+}
+
+.eng{
+    padding: 12px 0  48px 0;
+}
+.lang{
+    font-size: 12px;
+    font-weight: none;
+}
+.download :nth-child(2) {
+    font-size: 23px;
+}
+
+.download img {
+    padding: 0px 12px;
+}
+
+.download {
+    display: flex;
+    font-family: sans-serif;
+    gap: 10px;
+    align-items: center;
+    padding-bottom: 35px;
+}
+
+footer {
+    font-family: 'Segoe UI';
+}
+
+.foot-first {
+    height: 680px;
+    background-color: #222222;
+    color: #FFFFFF;
+}
+
+.top-sec {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    line-height: 0.5;
+    padding: 80px 400px;
+}
+
+.news h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.news p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.ex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 8px;
+}
+
+.ultra {
+    color: #00B6D1;
+    cursor: pointer;
+}
+
+.free {
+    padding-left: 20px;
+}
+
+.container1 {
+    padding: 0 30px 25px 30px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+
+}
+
+
+.subscribe {
+    line-height: 2;
+    color: #00B6D1;
+    font-size: 22px;
+}
+
+#txt1 {
+    height: 40px;
+    width: 230px;
+    border: 1px solid lightgray;
+    margin-bottom: 8px;
+}
+
+.email {
+    color: black;
+}
+
+.btn1 {
+    background-color: #00B6D1;
+    height: 45px;
+    width: 230px;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.foot-sec {
+    background-color: #f9f9f9;
+    color: #222222;
+    height: 650px;
+    width: 100%;
+
+}
+
+.panel1 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 100px 0 160px;
+}
+
+.panel1 ul li {
+    list-style: none;
+    cursor: pointer;
+    padding: 4px 0;
+    font-size: 0.85rem;
+}
+
+.panel2 {
+    padding: 25px 0 20px 450px;
+}
+
+.btn2 {
+    background-color: #00B6D1;
+    height: 40px;
+    width: 220px;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+#txt2 {
+    height: 35px;
+    width: 220px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    margin-bottom: 8px;
+}
+
+.para {
+    line-height: 0.1;
+}
+
+.container2 {
+    margin: 16px 0 0 50px;
+}
+
+.copyright {
+    font-size: 12px;
+}
+
+@media screen and (max-width: 1145px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}

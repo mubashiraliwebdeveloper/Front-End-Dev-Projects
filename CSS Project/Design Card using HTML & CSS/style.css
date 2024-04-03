@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: gray;
+    padding: 45px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+}
+
+.card {
+    background-color: white;
+    width: 300px;
+    margin: 4px;
+
+    border-radius: 8px;
+    padding: 0 0 60px 0;
+}
+
+.image {
+    padding: 10px;
+}
+
+.image img {
+    border-radius: 7px;
+}
+
+.content {
+    padding: 7px 13px;
+
+}
+
+.content p {
+    font-size: 20px;
+    color: gray;
+}
+
+.capsules {
+    padding: 0 25px;
+}
+
+.capsules span {
+    border: 1px solid grey;
+    padding: 0px 6px;
+    border-radius: 7px;
+    font-size: 12px;
+
+}
+
+.button {
+    text-align: center;
+}
+
+.button button {
+    padding: 8px 8px;
+    border-radius: 11px;
+    background-color: rgb(176, 224, 238);
+    color: rgb(32, 131, 245);
+    border: none;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.button button:hover {
+    background-color: rgb(133, 185, 202);
+    color: rgb(32, 131, 245);
+
+}
